@@ -7,7 +7,7 @@
 //
 
 #import <AFNetworking/AFNetworking.h>
-#import <MBProgressHUD.h>
+#import <MBProgressHUD/MBProgressHUD.h>
 ///网络请求方法
 typedef NS_ENUM (NSUInteger, LSDHttpRequestType){
     
