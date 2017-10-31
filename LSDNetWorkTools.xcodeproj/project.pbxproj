@@ -1,0 +1,418 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 48;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		5862770659B8AC208E6AFB3D /* libPods-LSDNetWorkTools.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 601AE35CFE68B01A1EA1E780 /* libPods-LSDNetWorkTools.a */; };
+		EA7F710E1FA82D8C00BC1181 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = EA7F710D1FA82D8C00BC1181 /* AppDelegate.m */; };
+		EA7F71111FA82D8C00BC1181 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = EA7F71101FA82D8C00BC1181 /* ViewController.m */; };
+		EA7F71141FA82D8C00BC1181 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = EA7F71121FA82D8C00BC1181 /* Main.storyboard */; };
+		EA7F71161FA82D8C00BC1181 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = EA7F71151FA82D8C00BC1181 /* Assets.xcassets */; };
+		EA7F71191FA82D8C00BC1181 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = EA7F71171FA82D8C00BC1181 /* LaunchScreen.storyboard */; };
+		EA7F711C1FA82D8C00BC1181 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = EA7F711B1FA82D8C00BC1181 /* main.m */; };
+		EA7F71251FA82DA900BC1181 /* LSDHTTPNetWorkTool.m in Sources */ = {isa = PBXBuildFile; fileRef = EA7F71241FA82DA900BC1181 /* LSDHTTPNetWorkTool.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		601AE35CFE68B01A1EA1E780 /* libPods-LSDNetWorkTools.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-LSDNetWorkTools.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+		66854F7D1644F76A0B8E9FB3 /* Pods-LSDNetWorkTools.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-LSDNetWorkTools.release.xcconfig"; path = "Pods/Target Support Files/Pods-LSDNetWorkTools/Pods-LSDNetWorkTools.release.xcconfig"; sourceTree = "<group>"; };
+		E303BEDCD7CC5768C7B14F9C /* Pods-LSDNetWorkTools.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-LSDNetWorkTools.debug.xcconfig"; path = "Pods/Target Support Files/Pods-LSDNetWorkTools/Pods-LSDNetWorkTools.debug.xcconfig"; sourceTree = "<group>"; };
+		EA7F71091FA82D8C00BC1181 /* LSDNetWorkTools.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = LSDNetWorkTools.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		EA7F710C1FA82D8C00BC1181 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		EA7F710D1FA82D8C00BC1181 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		EA7F710F1FA82D8C00BC1181 /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		EA7F71101FA82D8C00BC1181 /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		EA7F71131FA82D8C00BC1181 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		EA7F71151FA82D8C00BC1181 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		EA7F71181FA82D8C00BC1181 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		EA7F711A1FA82D8C00BC1181 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		EA7F711B1FA82D8C00BC1181 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		EA7F71231FA82DA900BC1181 /* LSDHTTPNetWorkTool.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LSDHTTPNetWorkTool.h; sourceTree = "<group>"; };
+		EA7F71241FA82DA900BC1181 /* LSDHTTPNetWorkTool.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = LSDHTTPNetWorkTool.m; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		EA7F71061FA82D8C00BC1181 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				5862770659B8AC208E6AFB3D /* libPods-LSDNetWorkTools.a in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		6459F69911A1AEE29BAAE97A /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				E303BEDCD7CC5768C7B14F9C /* Pods-LSDNetWorkTools.debug.xcconfig */,
+				66854F7D1644F76A0B8E9FB3 /* Pods-LSDNetWorkTools.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
+		ACDFD2D91EB600804DDDDC25 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				601AE35CFE68B01A1EA1E780 /* libPods-LSDNetWorkTools.a */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		EA7F71001FA82D8C00BC1181 = {
+			isa = PBXGroup;
+			children = (
+				EA7F710B1FA82D8C00BC1181 /* LSDNetWorkTools */,
+				EA7F710A1FA82D8C00BC1181 /* Products */,
+				6459F69911A1AEE29BAAE97A /* Pods */,
+				ACDFD2D91EB600804DDDDC25 /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		EA7F710A1FA82D8C00BC1181 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				EA7F71091FA82D8C00BC1181 /* LSDNetWorkTools.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		EA7F710B1FA82D8C00BC1181 /* LSDNetWorkTools */ = {
+			isa = PBXGroup;
+			children = (
+				EA7F71221FA82DA900BC1181 /* NetWorkTool */,
+				EA7F710C1FA82D8C00BC1181 /* AppDelegate.h */,
+				EA7F710D1FA82D8C00BC1181 /* AppDelegate.m */,
+				EA7F710F1FA82D8C00BC1181 /* ViewController.h */,
+				EA7F71101FA82D8C00BC1181 /* ViewController.m */,
+				EA7F71121FA82D8C00BC1181 /* Main.storyboard */,
+				EA7F71151FA82D8C00BC1181 /* Assets.xcassets */,
+				EA7F71171FA82D8C00BC1181 /* LaunchScreen.storyboard */,
+				EA7F711A1FA82D8C00BC1181 /* Info.plist */,
+				EA7F711B1FA82D8C00BC1181 /* main.m */,
+			);
+			path = LSDNetWorkTools;
+			sourceTree = "<group>";
+		};
+		EA7F71221FA82DA900BC1181 /* NetWorkTool */ = {
+			isa = PBXGroup;
+			children = (
+				EA7F71231FA82DA900BC1181 /* LSDHTTPNetWorkTool.h */,
+				EA7F71241FA82DA900BC1181 /* LSDHTTPNetWorkTool.m */,
+			);
+			path = NetWorkTool;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		EA7F71081FA82D8C00BC1181 /* LSDNetWorkTools */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = EA7F711F1FA82D8C00BC1181 /* Build configuration list for PBXNativeTarget "LSDNetWorkTools" */;
+			buildPhases = (
+				DAEA68BFC5E3A89CB54E54BC /* [CP] Check Pods Manifest.lock */,
+				EA7F71051FA82D8C00BC1181 /* Sources */,
+				EA7F71061FA82D8C00BC1181 /* Frameworks */,
+				EA7F71071FA82D8C00BC1181 /* Resources */,
+				32E317A71E1D26277B1ED116 /* [CP] Embed Pods Frameworks */,
+				4D24D092FA986D1B820B9A03 /* [CP] Copy Pods Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = LSDNetWorkTools;
+			productName = LSDNetWorkTools;
+			productReference = EA7F71091FA82D8C00BC1181 /* LSDNetWorkTools.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		EA7F71011FA82D8C00BC1181 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0900;
+				ORGANIZATIONNAME = onePiece;
+				TargetAttributes = {
+					EA7F71081FA82D8C00BC1181 = {
+						CreatedOnToolsVersion = 9.0;
+						ProvisioningStyle = Automatic;
+					};
+				};
+			};
+			buildConfigurationList = EA7F71041FA82D8C00BC1181 /* Build configuration list for PBXProject "LSDNetWorkTools" */;
+			compatibilityVersion = "Xcode 8.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = EA7F71001FA82D8C00BC1181;
+			productRefGroup = EA7F710A1FA82D8C00BC1181 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				EA7F71081FA82D8C00BC1181 /* LSDNetWorkTools */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		EA7F71071FA82D8C00BC1181 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				EA7F71191FA82D8C00BC1181 /* LaunchScreen.storyboard in Resources */,
+				EA7F71161FA82D8C00BC1181 /* Assets.xcassets in Resources */,
+				EA7F71141FA82D8C00BC1181 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		32E317A71E1D26277B1ED116 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-LSDNetWorkTools/Pods-LSDNetWorkTools-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		4D24D092FA986D1B820B9A03 /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-LSDNetWorkTools/Pods-LSDNetWorkTools-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		DAEA68BFC5E3A89CB54E54BC /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		EA7F71051FA82D8C00BC1181 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				EA7F71111FA82D8C00BC1181 /* ViewController.m in Sources */,
+				EA7F711C1FA82D8C00BC1181 /* main.m in Sources */,
+				EA7F71251FA82DA900BC1181 /* LSDHTTPNetWorkTool.m in Sources */,
+				EA7F710E1FA82D8C00BC1181 /* AppDelegate.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		EA7F71121FA82D8C00BC1181 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				EA7F71131FA82D8C00BC1181 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		EA7F71171FA82D8C00BC1181 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				EA7F71181FA82D8C00BC1181 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		EA7F711D1FA82D8C00BC1181 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.0;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		EA7F711E1FA82D8C00BC1181 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.0;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		EA7F71201FA82D8C00BC1181 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = E303BEDCD7CC5768C7B14F9C /* Pods-LSDNetWorkTools.debug.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = LSDNetWorkTools/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = onePiece.LSDNetWorkTools;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		EA7F71211FA82D8C00BC1181 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 66854F7D1644F76A0B8E9FB3 /* Pods-LSDNetWorkTools.release.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = LSDNetWorkTools/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = onePiece.LSDNetWorkTools;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		EA7F71041FA82D8C00BC1181 /* Build configuration list for PBXProject "LSDNetWorkTools" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				EA7F711D1FA82D8C00BC1181 /* Debug */,
+				EA7F711E1FA82D8C00BC1181 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		EA7F711F1FA82D8C00BC1181 /* Build configuration list for PBXNativeTarget "LSDNetWorkTools" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				EA7F71201FA82D8C00BC1181 /* Debug */,
+				EA7F71211FA82D8C00BC1181 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = EA7F71011FA82D8C00BC1181 /* Project object */;
+}
